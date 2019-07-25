@@ -877,7 +877,8 @@ main {
       main .first .main__content__slider .main__first__dots {
         position: absolute;
         bottom: 2vh;
-        left: 20vw; }
+        left: 20vw;
+        z-index: 1; }
         main .first .main__content__slider .main__first__dots .dot {
           cursor: pointer;
           height: 15px;

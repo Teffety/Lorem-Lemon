@@ -750,7 +750,7 @@ main {
                 position: absolute;
                 bottom: 2vh;
                 left: 20vw;
-
+                z-index: 1;
                 .dot {
                     cursor: pointer;
                     height: 15px;
