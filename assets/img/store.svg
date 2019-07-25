@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+      <bx:grid x="0" y="0" width="4.459" height="4.459"/>
+      <style type="text/css">
+      #store{
+      fill:none;
+      stroke:white;
+      stroke-width:15px;
+      }
+      #store:hover{
+        stroke:black;
+      }
+      </style>
+  </defs>
+  <rect x="22.295" y="85.564" id="store" width="450.359" height="404.926"/>
+  <path id="store2" transform="matrix(-0.008221, 0.765128, -0.822987, -0.007643, 489.534271, -130.190613)" d="M 315 419 A 138.004 138.004 0 1 1 313.232 142.998 L 313.305 156.213 A 124.789 124.789 0 1 0 314.904 405.786 Z" style="fill: rgb(255, 255, 255);" bx:shape="pie 314 281 124.789 138.004 179.585 359.681 1@600f7468"/>
+</svg>

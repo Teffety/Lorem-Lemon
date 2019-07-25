@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Layout One</title>
+	<link rel="stylesheet" href="assets/index.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Start main-body content div -->
+	<div id="wrapper">
+		<!-- Start header content. This content has 3 parts: 
+*	 1) header__head;
+*	 2) header__content;
+*	 3) header__nav
+-->
+		<header>
+			<div id="burger">	
+					<span class="burger__btn"></span>
+			</div>
+			<div class="header__head">
+				<div class="header__head__list">
+					<ul class="header__head__ul">
+						<li><a href="#" class="header__head__ul__link link">About the store</a></li>
+						<li><a href="#" class="header__head__ul__link link">Donate</a></li>
+						<li><a href="#" class="header__head__ul__link link">Delivery</a></li>
+						<li><a href="#" class="header__head__ul__link link">Reviews</a></li>
+						<li><a href="#" class="header__head__ul__link link">News</a></li>
+						<li><a href="#" class="header__head__ul__link link">Posts</a></li>
+						<li><a href="#" class="header__head__ul__link link">Contact</a></li>
+					</ul>
+				</div>
+				<div class="header__head__user"><a href="#" class="header__head__user__link link">Private cabinet</a>
+				</div>
+				<div class="header__head__store"><a href="#" class="header__head__store__link link">Favorites</a>
+					<sup><span>2</span></sup></div>
+			</div>
+			<div class="header__body">
+				<div class="header__body__logo"><a href="#"><img src="assets/img/logo.svg" alt="logo company"></a></div>
+				<div class="header__body__content">
+					<div class="header__body__content__search">
+						<input type="text" placeholder=" ">
+						<label>search product catalog</label>
+						<i></i>
+					</div>
+					<div class="header__body__content__list">
+						<ul class="header__body__content__ul">
+							<li><a href="tel:+78888888888" class="header__body__content__link link"><i></i> +7 /888/
+									888-88-88</a></li>
+							<li><a href="#" class="header__body__content__link backCall link"><i></i>Back call</a></li>
+							<li><a href="mailto:lorem@lorem.com"
+									class="header__body__content__link email link"><i></i>lorem@lorem.com</a></li>
+							<li><span class="header__body__content__link workTimes"><i></i>Mon-Fri 9.00-21.00</span>
+							</li>
+						</ul>
+					</div>
+					<div class="header__body__content__store">
+						<div class="header__body__content__store__items">
+							<a href="#" class="header__body__store__link link"><img src="assets/img/store.svg" alt="">
+								<sup><span>4</span></sup></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<nav class="header__nav">
+				<ul class="nav__list">
+					<li><a href="#" class="nav__list__link link">Promotions</a></li>
+					<li><a href="#" class="nav__list__link link">Perfumery</a></li>
+					<li><a href="#" class="nav__list__link link">New items</a></li>
+					<li><a href="#" class="nav__list__link link">Makeup</a></li>
+					<li><a href="#" class="nav__list__link link">Care behind skin</a></li>
+					<li><a href="#" class="nav__list__link link">Care behind hair</a></li>
+					<li>
+						<div class="nav__list__link dropdown">
+							<a class="nav__list__link link">For men</a>
+							<div class="dropdown-content">
+								<ul>
+									<li><a href="#">Lorem impsu</a></li>
+									<li><a href="#">Lorem impsu</a></li>
+									<li><a href="#">Lorem impsu</a></li>
+									<li><a href="#">Lorem impsu</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li><a href="#" class="nav__list__link link dropdown">Organic</a>
+					</li>
+					<li><a href="#" class="nav__list__link link">Presents</a></li>
+				</ul>
+				<div class="nav__link"><a href="#" class="link">sales</a></div>
+			</nav>
+		</header>
+		<!--     
+*	END
+*	header content
+*
+-->
+		<!--
+*	START
+*   main content
+*	This content created by sixth parts: 
+*	->  main__content end number part <-
+-->
+		<main>
+			<!--
+*	START
+*   First main__content
+*
+-->
+
+			<div class="main__content first">
+				<div class="main__content__slider">
+					<div class="main__first__slide">
+						<figure class="big__slide">
+							<img src="assets/img/river.jpg" alt="" class="main__slide large">
+						</figure>
+						<div class="big__slide__text">
+							<h2>Perfect by Lorem</h2><a href="" class="figcaption__link">see more</a>
+						</div>
+						<figure class="medium__slide">
+							<img src="assets/img/pic2.png" alt="" class="main__slide medium">
+							<figcaption>
+								<p>- 4 999 P.</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="main__first__dots">
+						<span class="dot active"></span>
+						<span class="dot"></span>
+						<span class="dot"></span>
+					</div>
+				</div>
+				<div class="main__content__recomend">
+					<div class="main__content__recomend__h">
+						<h4>Our recomendation</h4>
+					</div>
+
+					<div class="main__content__recomend__list">
+						<ul>
+							<li><a href="" class="link">Interestings things </a></li>
+							<li><a href="" class="link">Woman`s Perfumery</a></li>
+							<li><a href="" class="link">Sales</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="main__content__info">
+					<ul class="main__content__info__list">
+						<li>
+							<i></i>
+							<p>original products</p>
+						</li>
+						<li>
+							<i></i>
+							<p>free delivery in Moscow and Russia</p>
+						</li>
+						<li>
+							<i></i>
+							<p>discount system</p>
+						</li>
+						<li>
+							<i></i>
+							<p>Express delivery</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--
+*	END			  
+*	First main__content
+*
+-->
+			<!--
+*	Start			  
+*	Second main__content
+*
+-->
+			<div class="main__content ">
+				<div class="maim__content__h">
+					<h2>Hit sales</h2>
+				</div>
+
+				<div class="main__content__slider__row">
+					<figure class="slider__block">
+						<img src="assets/img/pic1.png" alt="">
+						<p class="sale active">sale</p>
+						<figcaption>
+
+							<h3>Perfumery name</h3>
+							<p>Perfumery brend</p>
+							<p>Perfumery water</p>
+							<p>Woman</p>
+							<div class="price">
+								<p id="old">8 900 P. <span></span></p>
+								<p id="new">от 4 900 Р.<i></i></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="slider__block">
+						<img src="assets/img/pic1.png" alt="">
+						<p class="sale active">sale</p>
+						<figcaption>
+
+							<h3>Perfumery name</h3>
+							<p>Perfumery brend</p>
+							<p>Perfumery water</p>
+							<p>Woman</p>
+							<div class="price">
+								<p id="old">8 900 P. <span></span></p>
+								<p id="new">от 4 900 Р.<i></i></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="slider__block">
+						<img src="assets/img/pic1.png" alt="">
+						<p class="sale">sale</p>
+						<figcaption>
+
+							<h3>Perfumery name</h3>
+							<p>Perfumery brend</p>
+							<p>Perfumery water</p>
+							<p>Woman</p>
+							<div class="price">
+
+								<p id="new">от 4 900 Р.<i></i></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="slider__block">
+						<img src="assets/img/pic1.png" alt="">
+						<p class="sale">sale</p>
+						<figcaption>
+
+							<h3>Perfumery name</h3>
+							<p>Perfumery brend</p>
+							<p>Perfumery water</p>
+							<p>Woman</p>
+							<div class="price">
+
+								<p id="new">New price.<i></i></p>
+							</div>
+						</figcaption>
+					</figure>
+					<a class="prev">&#10094;</a>
+					<a class="next">&#10095;</a>
+				</div>
+			</div>
+			<!--
+*	End			  
+*	Second main__content
+*
+-->
+			<!--
+*	Start			  
+*	third main__content
+*
+-->
+			<div class="main__content ">
+				<div class="maim__content__h">
+					<h2>New</h2>
+				</div>
+				<div class="main__content__slider__row">
+					<figure class="slider__block">
+						<img src="assets/img/pic2.png" alt="">
+						<p class="sale active">sale</p>
+						<figcaption>
+
+							<h3>Perfumery name</h3>
+							<p>Perfumery brend</p>
+							<p>Perfumery water</p>
+							<p>Woman</p>
+							<div class="price">
+								<p id="old">8 900 P. <span></span></p>
+								<p id="new">от 4 900 Р.<i></i></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="slider__block">
+						<img src="assets/img/pic2.png" alt="">
+						<p class="sale">sale</p>
+						<figcaption>
+
+							<h3>Perfumery name</h3>
+							<p>Perfumery brend</p>
+							<p>Perfumery water</p>
+							<p>Woman</p>
+							<div class="price">
+								<p id="new">от 4 900 Р.<i></i></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="slider__block">
+						<img src="assets/img/pic2.png" alt="">
+						<p class="sale">sale</p>
+						<figcaption>
+
+							<h3>Perfumery name</h3>
+							<p>Perfumery brend</p>
+							<p>Perfumery water</p>
+							<p>Woman</p>
+							<div class="price">
+								<p id="new">от 4 900 Р.<i></i></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="slider__block">
+						<img src="assets/img/pic2.png" alt="">
+						<p class="sale active">sale</p>
+						<figcaption>
+
+							<h3>Perfumery name</h3>
+							<p>Perfumery brend</p>
+							<p>Perfumery water</p>
+							<p>Woman</p>
+							<div class="price">
+								<p id="old">Old price. <span></span></p>
+								<p id="new">New price. <span></span><i></i></p>
+							</div>
+						</figcaption>
+					</figure>
+					<a class="prev">&#10094;</a>
+					<a class="next">&#10095;</a>
+				</div>
+			</div>
+			<!--
+*	End			  
+*	third main__content
+*
+-->
+			<!--
+*	Start			  
+*	four main__content
+*
+-->
+			<div class="main__content">
+				<div class="maim__content__h">
+					<h2>Special</h2>
+				</div>
+				<div class="main__content__slider__row">
+					<figure class="slider__block">
+						<img src="assets/img/pic1.png" alt="">
+						<p class="sale active">sale</p>
+						<figcaption>
+
+							<h3>Perfumery name</h3>
+							<p>Perfumery brend</p>
+							<p>Perfumery water</p>
+							<p>Woman</p>
+							<div class="price">
+								<p id="old">8 900 P. <span></span></p>
+								<p id="new">от 4 900 Р.<i></i></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="slider__block">
+						<img src="assets/img/pic1.png" alt="">
+						<p class="sale active">sale</p>
+						<figcaption>
+
+							<h3>Perfumery name</h3>
+							<p>Perfumery brend</p>
+							<p>Perfumery water</p>
+							<p>Woman</p>
+							<div class="price">
+								<p id="old">8 900 P.<span></span></p>
+								<p id="new">от 4 900 Р.<i></i></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="slider__block">
+						<img src="assets/img/pic1.png" alt="">
+						<p class="sale">sale</p>
+						<figcaption>
+							<h3>Perfumery name</h3>
+							<p>Perfumery brend</p>
+							<p>Perfumery water</p>
+							<p>Woman</p>
+							<div class="price">
+								<p id="new">от 4 900 Р.<i></i></p>
+							</div>
+						</figcaption>
+					</figure>
+					<figure class="slider__block">
+						<img src="assets/img/pic1.png" alt="">
+						<p class="sale">sale</p>
+						<figcaption>
+							<h3>Perfumery name</h3>
+							<p>Perfumery brend</p>
+							<p>Perfumery water</p>
+							<p>Woman</p>
+							<div class="price">
+								<p id="new">New price.<i></i></p>
+							</div>
+						</figcaption>
+					</figure>
+					<a class="prev">&#10094;</a>
+					<a class="next">&#10095;</a>
+				</div>
+			</div>
+			<!--
+*	End			  
+*	four main__content
+*
+-->
+			<!--
+*	Start			  
+*	fifth main__content
+*
+-->
+			<div class="main__content fifth">
+
+				<div class="maim__content__h">
+					<h2>top brands</h2>
+				</div>
+				<figure class="main__content__topBrends">
+					<figcaption>
+						<p>all brands</p>
+					</figcaption>
+					<img src="assets/img/logoCompany.svg" alt="">
+				</figure>
+				<div class="main__content__slider__row">
+					<div class="main__content__slider__row__list">
+						<ul>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+						</ul>
+					</div>
+					<div class="main__content__slider__row__list">
+						<ul>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+						</ul>
+					</div>
+					<div class="main__content__slider__row__list">
+						<ul>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+						</ul>
+					</div>
+					<div class="main__content__slider__row__list">
+						<ul>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+						</ul>
+					</div>
+					<div class="main__content__slider__row__list">
+						<ul>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+							<li>Lorem impsu</li>
+						</ul>
+					</div>
+					<a class="prev">&#10094;</a>
+					<a class="next">&#10095;</a>
+				</div>
+			</div>
+			<!--
+*	End			  
+*	fifth main__content
+*
+-->
+			<!--
+*	Start			  
+*	sixth main__content
+*
+-->
+
+			<div class="main__content sixth">
+
+				<div class="maim__content__h">
+					<h2>posts and news</h2>
+				</div>
+				<div class="main__content__posts">
+					<div class="post">
+						<h4>Name Posts</h3>
+							<p class="date">26 month 2017</p>
+							<p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, rerum.</p>
+					</div>
+					<div class="post">
+						<h4>Name Posts</h3>
+							<p class="date">26 month 2017</p>
+							<p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, rerum.</p>
+					</div>
+					<div class="post">
+						<h4>Name Posts</h4>
+						<p class="date">26 month 2017</p>
+						<p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, rerum.</p>
+					</div>
+					<div class="main__content__btn"><a href="#" class="main__contnent__sixth__link">watch everything
+							posts</a></div>
+				</div>
+				<div class="main__content__news">
+					<div class="news">
+						<div class="news__img"><img src="assets/img/guys.jpg" alt=""></div>
+						<div class="news__info">
+							<h4>Name news</h3>
+								<p class="date">26 month 2017</p>
+								<div class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+									rerum.
+								</div>
+						</div>
+					</div>
+					<div class="news">
+						<div class="news__img"><img src="assets/img/pic1.png" alt=""></div>
+						<div class="news__info">
+							<h4>Name news</h3>
+								<p class="date">26 month 2017</p>
+								<div class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
+									rerum.
+								</div>
+						</div>
+					</div>
+					<div class="news">
+						<div class="news__img"><img src="assets/img/pic2.png" alt=""></div>
+						<div class="news__info">
+							<h4>Name news</h4>
+							<p class="date">26 month 2017</p>
+							<div class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, rerum.
+							</div>
+						</div>
+					</div>
+					<div class="main__content__btn"><a href="#" class="main__contnent__sixth__link">watch everything
+							news</a></div>
+				</div>
+			</div>
+			<!--
+*	End			  
+*	sixth main__content
+*
+-->
+		</main>
+		<!--
+*	End
+*   main content
+*
+-->
+		<!--
+*	Start
+*   Footer content
+*
+-->
+		<footer>
+			<div class="footer__head">
+				<div class="footer__about">
+					<ul>
+						<li>
+							<h3>about company</h3>
+						</li>
+						<li><a href="#">lorem impsu</a></li>
+						<li><a href="#">lorem impsu</a></li>
+						<li><a href="#">lorem impsu</a></li>
+						<li><a href="#">lorem impsu</a></li>
+						<li><a href="#">lorem impsu</a></li>
+						<li><a href="#">lorem impsu</a></li>
+						<li><a href="#">lorem impsu</a></li>
+					</ul>
+				</div>
+				<div class="footer__catalog">
+
+					<ul>
+						<li>
+							<h3>catalog</h3>
+						</li>
+						<li><a href="#">lorem impsu</a></li>
+						<li><a href="#">lorem impsu</a></li>
+						<li><a href="#">lorem impsu</a></li>
+						<li><a href="#">lorem impsu</a></li>
+						<li><a href="#">lorem impsu</a></li>
+						<li><a href="#">lorem impsu</a></li>
+						<li><a href="#">lorem impsu</a></li>
+					</ul>
+				</div>
+				<div class="footer__liks__info">
+					<ul>
+						<li>
+							<h3><a href="tel:+78888888888" class="header__body__content__link link">+7 /888/
+									888-88-88</a>
+							</h3>
+						</li>
+						<li>we are also available<a href="#" class="link__whatsapp"><i></i></a><a href="#"
+								class="link__viber"><i></i></a></li>
+						<li><span class="header__body__content__link">Mon-Fri 9.00-21.00</span></li>
+						<li><a href="#" class="header__body__content__link backCall link"><i></i>Back call</a></li>
+						<li><a href="mailto:lorem@lorem.com"
+								class="header__body__content__link email link"><i></i>lorem@lorem.com</a></li>
+						<li><a href="skype:SkypeUser" class="header__body__content__link skype link"><i></i>skype:
+								lorem.ru</a></li>
+					</ul>
+				</div>
+				<div class="footer__form__subscribe">
+					<form action="">
+						<h3>subscribe to news</h3>
+						<div class="footer__input">
+							<input type="text" placeholder=" ">
+							<label>enter email</label>
+
+						</div>
+						<input type="submit" value="subscribe">
+					</form>
+					<a href="#" class="instagram">
+						<i></i>
+						<p>join us</p>
+					</a>
+				</div>
+
+			</div>
+			<div class="footer__bottom">
+				<div class="copyright"><a class="copyright__link" href="http://teffety.com">&#169; Teffety </a></div>
+				<div class="linksByAs"><i id="lamp"></i><a class="copyright__link" href="http://teffety.com">
+						development and support - <q>Teffety</q></a></div>
+			</div>
+		</footer>
+		<!--
+*	End
+*   Footer content
+*
+-->
+
+	</div>
+	<!-- End main-body content div -->
+	<!-- Start scripts content -->
+	<script src="assets/index.js"></script>
+</body>
+
+</html>
