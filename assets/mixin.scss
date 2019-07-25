@@ -50,6 +50,8 @@
 
 @mixin header {
     @include media(desktopSmall) {
+            
+            
         .header__body{
             .header__body__content{
                 .header__body__content__list{
@@ -72,6 +74,7 @@
     }
 
     @include media(tableSize1) {
+        grid-template-rows: 20% 40% 40% !important;
         .header__head{
             .header__head__list{
                 grid-column-end: 9!important;
