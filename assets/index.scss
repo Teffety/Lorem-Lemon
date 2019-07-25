@@ -656,7 +656,7 @@ main {
     .first {
         grid-template-rows: repeat(10, 8.5%) 15%;
         grid-template-columns: 5% repeat(12, 7.5%) 5%;
-        height: 750px;
+ 
         @include first;
 
         .main__content__slider {
