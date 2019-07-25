@@ -867,8 +867,6 @@ main .main__content {
   margin: 0;
   margin-bottom: 20px;
   padding: 0;
-  height: 100%;
-  width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 10% 90%;
